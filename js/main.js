@@ -16,7 +16,7 @@ function LoadImage(img, callback) {
 
 var i = new Image();
 i.onload = callback;
-i.src = 'images/?f='+img;
+i.src = 'images/'+img;
     
 }
 
